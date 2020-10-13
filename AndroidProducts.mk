@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hannah.mk
+    $(LOCAL_DIR)/rr_hannah.mk
+
+COMMON_LUNCH_CHOICES := \
+    rr_hannah-user \
+    rr_hannah-userdebug \
+    rr_hannah-eng
