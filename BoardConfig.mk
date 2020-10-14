@@ -12,9 +12,6 @@ DEVICE_PATH := device/motorola/hannah
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := hannah_defconfig
 BOARD_KERNEL_CMDLINE += dm=\"system none ro,0 1 android-verity /dev/mmcblk0p55\"
